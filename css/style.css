@@ -1,0 +1,72 @@
+/* Logo fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background: #fbfbfa;
+    background: linear-gradient(45deg, #fbfbfa 0%, #d9d9d9 25%, #c5c3c3 50%, #d9d9d9 75%, #fbfbfa 100%);
+}
+
+.admin-login-form {
+    width: 350px;
+    height: 445px;
+    background: linear-gradient(45deg, #fad763, #f3352b);
+}
+
+.candidate-register-form {
+    width: 45%;
+    background: linear-gradient(45deg, #fad763, #f3352b);
+}
+
+/* Sidebar menu */
+.sidebar {
+    height: 100vh;
+}
+
+.sidebar .nav-link {
+    transition: background-color 0.3s;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.sidebar-btn:hover {
+    background-color: #8d949f;
+}
+
+.box-shadow-bottom {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.bg-library-img {
+    background-image: url('https://thumbs.dreamstime.com/b/e-book-reader-books-tablet-library-background-d-illustratio-illustration-success-knowlage-concept-84653949.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.padding-y-100{
+    padding: 80px;
+}
+
+.msg-display{
+    position:absolute;
+    top: 9%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.margin-top-32{
+    margin-top: -32px;   
+}
+/* .margin-top-25{
+    margin-top: px;   
+} */
